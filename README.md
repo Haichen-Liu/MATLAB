@@ -1,6 +1,6 @@
-基于MATLAB实现的车牌识别系统
-
-    这是一个实现简单，准确率较高的方法。
-    一、本方法基于颜色特征实现车牌定位。在HSI空间实现蓝色查找，通过对疑似区域求外接矩形判断车牌区域，
-    二、通过垂直投影和连通域分析实现字符分割。
-    三、通过3层神经网络实现字符识别。
+License plate recognition system based on MATLAB 
+ 
+This is a simple and accurate method. 
+This method realizes license plate location based on color features. The blue search is realized in HSI space, and the license plate area is judged by finding the circumscribed rectangle of the suspected area. 
+The character segmentation is realized by vertical projection and connected domain analysis. 
+3.Character recognition is realized by three-layer neural network.
